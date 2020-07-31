@@ -9,7 +9,6 @@ import Paragraph from './Paragraph';
 import { HorizontalRule } from './HorizontalRule';
 import Input from './Input';
 import { SubmitButton } from './Button';
-import translate from 'google-translate-open-api';
 
 const App = (props) => {
     const ref = useRef();
@@ -67,11 +66,11 @@ const App = (props) => {
             <Image
                 src = '/love1.jpg'
                 alt = ''
-                width = '300px'
+                width = '400px'
                 height = '100%'
             />
 
-            <GradientSection width='600px' background='yellow-orange'>
+            <GradientSection width='700px' background='yellow-orange'>
                 <Title
                     textTransform = 'capitalize'
                     textShadow = '-1.5px 0px #666666'
@@ -92,7 +91,7 @@ const App = (props) => {
             </GradientSection>
 
             <BackgroundImageSection
-                width = '800px'
+                width = '1000px'
                 backgroundUrl = '/love5.jpg'
                 align = 'flex-end'
             >
@@ -111,7 +110,7 @@ const App = (props) => {
             </BackgroundImageSection>
 
             <BackgroundImageSection
-                width = '500px'
+                width = '650px'
                 backgroundUrl = '/love2.jpg'
                 align = 'center'
             >
@@ -143,7 +142,7 @@ const App = (props) => {
             <Image
                 src = '/love4.jpg'
                 alt = ''
-                width = '300px'
+                width = '400px'
                 height = '100%'
             />
 
