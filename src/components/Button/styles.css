@@ -1,0 +1,29 @@
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    transition: color .5s, background-color .5s, font-size .5s;
+}
+
+.SubmitButton{
+    height: 70px;
+    width: 150px;
+    margin: 20px;
+
+    border: none;
+    border-radius: 50% 20%;
+    background-color: red;
+    color: white;
+
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.SubmitButton:hover{
+    font-size: 18px;
+    background-color: crimson;
+    color: whitesmoke,
+}   

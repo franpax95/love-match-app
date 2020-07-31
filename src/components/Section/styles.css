@@ -1,0 +1,25 @@
+.Section{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.GradientSection{
+    justify-content: center;
+    align-items: flex-start;
+}
+.GradientSection.yellow-orange{
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(252,143,70,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(252,143,70,1)));
+    background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(252,143,70,1) 100%);
+    background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(252,143,70,1) 100%);
+    background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(252,143,70,1) 100%);
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(252,143,70,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#fc8f46', GradientType=1 );
+}
+
+.BackgroundImageSection{
+    
+}

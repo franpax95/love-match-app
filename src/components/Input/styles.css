@@ -1,0 +1,17 @@
+.Input{
+    height: 50px;
+    width: 80%;
+    margin: 5px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    outline: none;
+    border: none;
+    border-radius: 15% 30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #262626;
+
+    font-size: 16px;
+}
